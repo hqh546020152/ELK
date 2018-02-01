@@ -1,0 +1,8 @@
+filebeat:
+  prospectors:
+    -
+      paths:
+        - /tmp/test.log
+      input_type: log
+output.logstash:
+    hosts: ["HOST:5044"]

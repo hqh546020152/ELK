@@ -1,0 +1,1 @@
+./filebeat-5.2.2-linux-x86_64/filebeat -e -c filebeat.yml
