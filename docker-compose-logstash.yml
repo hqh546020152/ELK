@@ -1,0 +1,11 @@
+logstash:
+    image: docker.io/logstash
+    expose:
+        - "5044"
+    ports:
+        - "5044:5044"
+    volumes:
+        - "/etc/localtime:/etc/localtime"
+        - "$PWD:/config-dir"
+    restart: always
+    command: -f /config-dir/logstash.conf

@@ -1,0 +1,9 @@
+kibana:
+    image: docker.io/kibana
+    ports:
+        - "5601:5601"
+    volumes:
+        - "/etc/localtime:/etc/localtime"
+    restart: always
+    environment: 
+        - ELASTICSEARCH_URL=http://{$ELASTIC_IP}:9200

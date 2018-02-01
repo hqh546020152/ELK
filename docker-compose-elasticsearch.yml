@@ -1,0 +1,7 @@
+elasticsearch:
+    image: docker.io/elasticsearch
+    ports:
+        - "9200:9200"
+    volumes:
+        - "/etc/localtime:/etc/localtime"
+    restart: always
