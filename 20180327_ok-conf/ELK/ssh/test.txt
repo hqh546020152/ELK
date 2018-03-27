@@ -1,0 +1,3 @@
+ssh解析规则文件放置以下目录：
+/opt/logstash/vendor/bundle/jruby/1.9/gems/logstash-patterns-core-4.1.2/patterns
+

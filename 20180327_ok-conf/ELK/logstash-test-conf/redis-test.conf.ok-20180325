@@ -1,0 +1,28 @@
+input {
+    	redis {
+        	host => "172.17.91.157"
+        	port => 6379
+        	key => "logstash:redis"
+        	data_type => "list"
+		threads => 50
+    	}
+}
+
+filter {
+     json {
+       source => "message"
+       remove_field => "message"
+     }
+}
+
+output {
+        elasticsearch {
+                hosts => ["http://172.17.91.157:9200"]
+                index => "logstash-nginx-%{+YYYY.MM.dd}"
+                document_type => "nginx"
+                workers => 1
+                idle_flush_time => 10
+        }
+	stdout {codec => rubydebug}
+}
+

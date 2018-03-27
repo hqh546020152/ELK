@@ -1,0 +1,9 @@
+filebeat.prospectors:
+- 
+        input_type: log
+        paths:
+        - /var/log/nginx/access.log
+        tags: ["apache_access_log"]
+        document_type: apache_access_log
+output.logstash:
+        hosts: ["localhost:5044"]

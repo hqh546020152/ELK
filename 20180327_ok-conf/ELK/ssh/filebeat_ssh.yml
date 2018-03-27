@@ -1,0 +1,13 @@
+filebeat:
+    prospectors:
+    -
+        paths:
+        - /var/log/secure
+        tags: ["ssh_log"]
+        document_type: ssh_log
+output.redis:
+    hosts: ["172.17.91.157"]
+    port: 6379
+    key: "logstash:redis"
+    db: 0
+    timeout: 5

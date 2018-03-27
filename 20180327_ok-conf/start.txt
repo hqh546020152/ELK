@@ -1,0 +1,12 @@
+touch /var/lock/subsys/local
+
+sudo su - elk -c  "/opt/elasticsearch/bin/elasticsearch -d"
+
+nohup /opt/kibana/bin/kibana &
+
+nohup /opt/logstash/bin/logstash -f /opt/logstash/bin/logstash.conf &
+
+	--path.data是指存放数据的路径
+	nohup /opt/logstash/bin/logstash -f /opt/logstash/bin/logstash.conf --path.data=/root/&
+
+./filebeat -e -c filebeat.yml

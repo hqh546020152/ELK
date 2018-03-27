@@ -1,0 +1,18 @@
+filebeat:
+    prospectors:
+    -
+        paths:
+        - /var/lib/mysql/slow.log
+        tags: ["mysql_query_log"]
+        document_type: mysql_query_log
+        multiline:
+            pattern: "^# User@Host: "
+            negate: true
+            match: after
+        registry_file: /var/lib/filebeat/registry
+output.redis:
+    hosts: ["172.17.91.157"]
+    port: 6379
+    key: "logstash:redis"
+    db: 0
+    timeout: 5
