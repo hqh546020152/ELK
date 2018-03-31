@@ -1,0 +1,19 @@
+filebeat:
+    prospectors:
+    -
+        paths:
+        - /opt/logs/onecollection/app-server/error.log
+        tags: ["app_error_log"]
+        document_type: app_error_log
+        multiline:
+            pattern: "ERROR"
+            negate: true
+            match: after
+            max_lines: 500
+output.redis:
+    hosts: ["10.40.11.141"]
+    port: 6378
+    key: "logstash:redis"
+    db: 0
+    timeout: 5
+

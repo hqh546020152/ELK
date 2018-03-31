@@ -1,0 +1,14 @@
+filebeat:
+    prospectors:
+    -
+        paths:
+        - /opt/logs/onecollection/task/error.log
+        tags: ["task_error_log"]
+        document_type: task_error_log
+output.redis:
+    hosts: ["10.40.11.141"]
+    port: 6378
+    key: "logstash:redis"
+    db: 0
+    timeout: 5
+

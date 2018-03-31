@@ -1,0 +1,14 @@
+filebeat.prospectors:
+- 
+        input_type: log
+        paths:
+        - /var/log/nginx/collection/access_app.log
+        tags: ["apache_access_log"]
+        document_type: apache_access_log
+output.redis:
+        hosts: ["172.17.91.144"]
+        port: 6333
+        key: "logstash:redis"
+        db: 0
+        timeout: 5
+

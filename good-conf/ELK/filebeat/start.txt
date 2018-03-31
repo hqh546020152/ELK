@@ -1,0 +1,7 @@
+#nohup /opt/filebeat/filebeat -e -c filebeat_task.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_admin.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_app.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_repay.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_report.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_outsource.yml &
+#nohup /opt/filebeat/filebeat -e -c filebeat_first.yml &

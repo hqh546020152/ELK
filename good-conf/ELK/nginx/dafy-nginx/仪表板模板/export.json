@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "AWJ28uQsFxpyu4JAiJPH",
+    "_type": "dashboard",
+    "_source": {
+      "title": "运维使用",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":3,\"size_y\":2,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"AWJ2t4a-Fxpyu4JAiISs\",\"col\":8,\"row\":5},{\"size_x\":5,\"size_y\":5,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"AWJ2uxi2Fxpyu4JAiIZJ\",\"col\":8,\"row\":7},{\"size_x\":12,\"size_y\":5,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"AWJ2rvtuFxpyu4JAiH0W\",\"col\":1,\"row\":12},{\"size_x\":7,\"size_y\":6,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"AWJ26U7QFxpyu4JAiJGM\",\"col\":1,\"row\":1},{\"size_x\":5,\"size_y\":2,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"AWJ2WqQIFxpyu4JAiEGP\",\"col\":8,\"row\":3},{\"size_x\":3,\"size_y\":2,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"AWJ2YsSUFxpyu4JAiEdO\",\"col\":8,\"row\":1},{\"size_x\":2,\"size_y\":2,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"AWJ2wn3MFxpyu4JAiIgt\",\"col\":11,\"row\":5},{\"size_x\":12,\"size_y\":4,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"AWJ2VUbdFxpyu4JAiD1P\",\"col\":1,\"row\":17},{\"size_x\":2,\"size_y\":2,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"AWJ2ssSkFxpyu4JAiIDq\",\"col\":11,\"row\":1},{\"size_x\":7,\"size_y\":5,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"AWJ2qHSTFxpyu4JAiHae\",\"col\":1,\"row\":7}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 0.05\":\"rgb(0,0,0)\",\"0.05 - 0.08\":\"rgb(82,82,82)\",\"0.08 - 0.12\":\"rgb(150,150,150)\",\"0.12 - 0.2\":\"rgb(217,217,217)\",\"0.2 - 1\":\"rgb(255,255,255)\"}}},\"P-4\":{\"mapZoom\":5,\"mapCenter\":[35.96022296929667,114.41162109375]},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-10\":{\"vis\":{\"legendOpen\":false}},\"P-11\":{\"vis\":{\"legendOpen\":false}},\"P-6\":{\"vis\":{\"legendOpen\":false}},\"P-7\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AWJ6OdIBFxpyu4JAjHL7",
+    "_type": "dashboard",
+    "_source": {
+      "title": "运维使用2",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":11,\"id\":\"AWJ2t4a-Fxpyu4JAiISs\",\"panelIndex\":1,\"row\":12,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWJ2uxi2Fxpyu4JAiIZJ\",\"panelIndex\":2,\"row\":6,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWJ2rvtuFxpyu4JAiH0W\",\"panelIndex\":3,\"row\":15,\"size_x\":7,\"size_y\":5,\"type\":\"visualization\"},{\"col\":5,\"id\":\"AWJ26U7QFxpyu4JAiJGM\",\"panelIndex\":4,\"row\":1,\"size_x\":8,\"size_y\":9,\"type\":\"visualization\"},{\"col\":8,\"id\":\"AWJ2WqQIFxpyu4JAiEGP\",\"panelIndex\":5,\"row\":10,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"AWJ2YsSUFxpyu4JAiEdO\",\"panelIndex\":6,\"row\":12,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":8,\"id\":\"AWJ2wn3MFxpyu4JAiIgt\",\"panelIndex\":7,\"row\":16,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWJ2VUbdFxpyu4JAiD1P\",\"panelIndex\":8,\"row\":1,\"size_x\":4,\"size_y\":5,\"type\":\"visualization\"},{\"col\":11,\"id\":\"AWJ2ssSkFxpyu4JAiIDq\",\"panelIndex\":10,\"row\":14,\"size_x\":2,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWJ2qHSTFxpyu4JAiHae\",\"panelIndex\":11,\"row\":10,\"size_x\":7,\"size_y\":5,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 0.05\":\"rgb(0,0,0)\",\"0.05 - 0.08\":\"rgb(82,82,82)\",\"0.08 - 0.12\":\"rgb(150,150,150)\",\"0.12 - 0.2\":\"rgb(217,217,217)\",\"0.2 - 1\":\"rgb(255,255,255)\"}}},\"P-10\":{\"vis\":{\"legendOpen\":false}},\"P-11\":{\"vis\":{\"legendOpen\":false}},\"P-4\":{\"mapCenter\":[37.142803443716836,104.34814453125],\"mapZoom\":5},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-6\":{\"vis\":{\"legendOpen\":false}},\"P-7\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
